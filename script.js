@@ -56,5 +56,6 @@ function updateTaskList() {
         li.appendChild(removeBtn);
         li.appendChild(completeBtn);
         taskList.appendChild(li);
+        taskList.appendChild(document.createElement('br'));
     });
 }
