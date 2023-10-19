@@ -1,0 +1,16 @@
+@media (min-width: 769px){
+    body{
+        background-color: pink;
+    }
+    }
+    
+    @media (max-width: 640px){
+        body{
+            background-color: rgb(182, 227, 244);
+        }
+    }
+    @media (min-width: 641px) and (max-width: 768px){
+        body{
+            background-color: rgb(242, 121, 121);  
+    }
+    }
